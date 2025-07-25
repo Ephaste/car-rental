@@ -10,7 +10,7 @@ const Navbar = () => {
       {/* Logo */}
       <div className="logo">
         <span className="logo-car">FGS</span>
-        <span className="logo-rental">Car rental</span>
+        <span className="logo-rental">Car Rental</span>
       </div>
 
       {/* Hamburger Icon */}
@@ -24,7 +24,9 @@ const Navbar = () => {
         <li><Link to="/about">About Us</Link></li>
 
         <li className="dropdown">
-          <Link to="#">Cars <i className="fas fa-chevron-down"></i></Link>
+          <span>
+            Cars <i className="fas fa-chevron-down"></i>
+          </span>
           <ul className="dropdown-menu">
             <li><Link to="/cars/rental">Cars for Rental</Link></li>
             <li><Link to="/cars/selling">Cars for Selling</Link></li>
@@ -32,7 +34,9 @@ const Navbar = () => {
         </li>
 
         <li className="dropdown">
-          <Link to="#">Services <i className="fas fa-chevron-down"></i></Link>
+          <span>
+            Services <i className="fas fa-chevron-down"></i>
+          </span>
           <ul className="dropdown-menu">
             <li><Link to="/services/insurance">Car Insurance</Link></li>
             <li><Link to="/services/support">Driver Support</Link></li>
@@ -43,7 +47,7 @@ const Navbar = () => {
         <li><Link to="/contact">Contact Us</Link></li>
       </ul>
 
-      {/* Right Actions */}
+      {/* Right-side Icons */}
       <div className="nav-actions">
         <i className="fas fa-search"></i>
         <Link to="/book" className="book-btn">Book</Link>

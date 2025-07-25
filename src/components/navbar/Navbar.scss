@@ -17,6 +17,7 @@
   }
 }
 
+/* Logo Section */
 .logo {
   font-size: 24px;
   font-weight: bold;
@@ -30,6 +31,7 @@
   }
 }
 
+/* Nav Menu */
 .nav-menu {
   display: flex;
   list-style: none;
@@ -39,11 +41,12 @@
   li {
     position: relative;
 
-    a {
+    a, span {
       text-decoration: none;
       color: #333;
       padding: 8px;
       font-size: 16px;
+      cursor: pointer;
 
       i {
         font-size: 12px;
@@ -60,6 +63,7 @@
     }
   }
 
+  /* Dropdown Menu Styling */
   .dropdown-menu {
     display: none;
     position: absolute;
@@ -95,6 +99,7 @@
   }
 }
 
+/* Right Search and Book */
 .nav-actions {
   display: flex;
   align-items: center;
@@ -124,13 +129,15 @@
   }
 }
 
-/* Responsive */
+/* Responsive Navbar */
 @media (max-width: 768px) {
   .navbar {
     padding: 0 20px;
+    flex-wrap: wrap;
 
     .hamburger {
       display: block;
+      margin-left: 50px;
     }
 
     .nav-menu {
@@ -140,9 +147,10 @@
       right: 0;
       flex-direction: column;
       background: white;
-      gap: 0;
       display: none;
+      gap: 0;
       padding: 20px 0;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 
       li {
         text-align: center;
@@ -151,9 +159,10 @@
 
         .dropdown-menu {
           position: static;
+          display: none;
           padding: 0;
-          box-shadow: none;
           background: transparent;
+          box-shadow: none;
 
           li {
             padding: 8px 0;
@@ -175,10 +184,11 @@
     }
 
     .nav-actions {
-      position: absolute;
-      right: 20px;
-      top: 18px;
-      gap: 10px;
+      margin-left: auto;
+      margin-top: 10px;
+      position: relative;
+      top: 0;
+      right: 0;
 
       i {
         font-size: 18px;
