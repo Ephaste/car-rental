@@ -1,0 +1,193 @@
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 70px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 999;
+
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+  }
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+
+  .logo-car {
+    color: black;
+  }
+
+  .logo-rental {
+    color: red;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-weight: bold;
+
+  li {
+    position: relative;
+
+    a {
+      text-decoration: none;
+      color: #333;
+      padding: 8px;
+      font-size: 16px;
+
+      i {
+        font-size: 12px;
+        margin-left: 5px;
+      }
+
+      &:hover {
+        color: red;
+      }
+    }
+
+    &:hover .dropdown-menu {
+      display: block;
+    }
+  }
+
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background-color: white;
+    list-style: none;
+    min-width: 180px;
+    padding: 10px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    z-index: 1000;
+
+    li {
+      padding: 10px 20px;
+      font-weight: 500;
+      border-bottom: 1px solid #eee;
+
+      a {
+        color: #333;
+        font-size: 14px;
+        text-decoration: none;
+
+        &:hover {
+          color: red;
+        }
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  i {
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .book-btn {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+
+    &:hover {
+      background-color: white;
+      color: red;
+    }
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 20px;
+
+    .hamburger {
+      display: block;
+    }
+
+    .nav-menu {
+      position: absolute;
+      top: 70px;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      background: white;
+      gap: 0;
+      display: none;
+      padding: 20px 0;
+
+      li {
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+
+        .dropdown-menu {
+          position: static;
+          padding: 0;
+          box-shadow: none;
+          background: transparent;
+
+          li {
+            padding: 8px 0;
+
+            a {
+              font-size: 14px;
+            }
+          }
+        }
+
+        &:hover .dropdown-menu {
+          display: block;
+        }
+      }
+
+      &.open {
+        display: flex;
+      }
+    }
+
+    .nav-actions {
+      position: absolute;
+      right: 20px;
+      top: 18px;
+      gap: 10px;
+
+      i {
+        font-size: 18px;
+      }
+
+      .book-btn {
+        padding: 6px 12px;
+        font-size: 14px;
+      }
+    }
+  }
+}
