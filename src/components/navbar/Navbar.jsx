@@ -20,33 +20,33 @@ const Navbar = () => {
 
       {/* Navigation Menu */}
       <ul className={`nav-menu ${menuOpen ? 'open' : ''}`}>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About Us</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About Us</Link></li>
 
         <li className="dropdown">
-          <a href="#">Cars <i className="fas fa-chevron-down"></i></a>
+          <Link to="#">Cars <i className="fas fa-chevron-down"></i></Link>
           <ul className="dropdown-menu">
-            <li><a href="#">Cars for Rental</a></li>
-            <li><a href="#">Cars for Selling</a></li>
+            <li><Link to="/cars/rental">Cars for Rental</Link></li>
+            <li><Link to="/cars/selling">Cars for Selling</Link></li>
           </ul>
         </li>
 
         <li className="dropdown">
-          <a href="#">Services <i className="fas fa-chevron-down"></i></a>
+          <Link to="#">Services <i className="fas fa-chevron-down"></i></Link>
           <ul className="dropdown-menu">
-            <li><a href="#">Car Insurance</a></li>
-            <li><a href="#">Driver Support</a></li>
+            <li><Link to="/services/insurance">Car Insurance</Link></li>
+            <li><Link to="/services/support">Driver Support</Link></li>
           </ul>
         </li>
 
-        <li><a href="/news">News</a></li>
-        <li><a href="/contact">Contact Us</a></li>
+        <li><Link to="/news">News</Link></li>
+        <li><Link to="/contact">Contact Us</Link></li>
       </ul>
 
       {/* Right Actions */}
       <div className="nav-actions">
         <i className="fas fa-search"></i>
-       <Link to="/book" className="book-btn">Book</Link>
+        <Link to="/book" className="book-btn">Book</Link>
       </div>
     </nav>
   );
