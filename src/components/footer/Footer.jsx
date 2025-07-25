@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
           <p>57 Heol Isaf Station Road, Cardiff, UK</p>
           <p>info@example.com</p>
-          <p>029-2021-4012</p>
+          <p>+250 788 891 625</p>
         </div>
         <div className="footer-section">
           <h4>Resources</h4>
