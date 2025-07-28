@@ -5,7 +5,7 @@ import HybridImg from '../../../assets/imgs/hybrid.jpg';
 import CoasterImg from '../../../assets/imgs/coaster.jpg';
 import minibusImg from '../../../assets/imgs/minibus.jpg';
 import ElectricCarImg from '../../../assets/imgs/electric.jpg';
-import V8Img from '../../../assets/imgs/v8.JPG';
+import V8Img from '../../../assets/imgs/v8.jpg';
 import TXLImg from '../../../assets/imgs/TXL.jpg';
 
 const carData = [
