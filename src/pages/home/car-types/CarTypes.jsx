@@ -1,20 +1,20 @@
 import React from 'react';
 import './CarTypes.scss';
 
-import TruckImg from '../../../assets/imgs/truck.jpg';
-import LuxurySedanImg from '../../../assets/imgs/sedan.jpg';
-import SedanImg from '../../../assets/imgs/sedan2.jpg';
-import SportsCarImg from '../../../assets/imgs/sports.jpg';
-import HatchbackImg from '../../../assets/imgs/hatch.jpg';
-import SUVImg from '../../../assets/imgs/suv.jpg';
+import HybridImg from '../../../assets/imgs/hybrid.jpg';
+import CoasterImg from '../../../assets/imgs/coaster.jpg';
+import minibusImg from '../../../assets/imgs/minibus.jpg';
+import ElectricCarImg from '../../../assets/imgs/electric.jpg';
+import V8Img from '../../../assets/imgs/V8.JPG';
+import TXLImg from '../../../assets/imgs/TXL.jpg';
 
 const carData = [
-  { name: 'Truck', image: TruckImg },
-  { name: 'Luxury Sedan', image: LuxurySedanImg },
-  { name: 'Sedan', image: SedanImg },
-  { name: 'Sports Car', image: SportsCarImg },
-  { name: 'Hatchback', image: HatchbackImg },
-  { name: 'SUV', image: SUVImg },
+  { name: 'Hybrid', image: HybridImg },
+  { name: 'Coaster', image: CoasterImg },
+  { name: 'Mini bus', image: minibusImg },
+  { name: 'Electric', image: ElectricCarImg },
+  { name: 'V8', image: V8Img },
+  { name: 'TXL', image: TXLImg },
 ];
 
 const CarTypes = () => {

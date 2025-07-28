@@ -7,19 +7,21 @@
   box-sizing: border-box;
 
   .brand-btn {
-    background-color: #f6c2c2;
-    color: #ff0000;
+ background-color: skyblue;
+    color: green;
     border: none;
     padding: 10px 20px;
     border-radius: 20px;
-    font-size: 14px;
+    font-size: 10px;
     margin-bottom: 10px;
     cursor: pointer;
+    //font-family: Bahnschrift SemiBold;
   }
 
   h2 {
     margin-bottom: 20px;
     font-size: 24px;
+    font-family: Bahnschrift SemiBold;
   }
 
   .news-container {
@@ -50,10 +52,11 @@
     .news-info {
       padding: 10px;
       text-align: left;
+      font-family: Bahnschrift SemiBold;
 
       .city-btn {
-        background-color: #ffebee;
-        color: #ff0000;
+       background-color: skyblue;
+       color: green;
         border: none;
         padding: 5px 10px;
         border-radius: 20px;
@@ -78,6 +81,7 @@
         color: black;
         font-style: bold;
         font-weight: 600;
+        font-family: Bahnschrift SemiBold;
       }
     }
   }

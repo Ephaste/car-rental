@@ -5,17 +5,22 @@
   background-color: #d8d3d3;
   text-align: center;
   box-sizing: border-box;
+  font-family: Bahnschrift SemiBold;
+
+  
 }
 
-.brand-btn {
-  background-color: #f6c2c2;
-  color: #ff0000;
+.brand-btnp {
+ background-color: skyblue;
+  color: green;
   border: none;
   padding: 10px 20px;
   border-radius: 20px;
-  font-size: 14px;
+  font-size: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  //font-family: Bahnschrift SemiBold;
+
 }
 
 .cards-container {
@@ -57,35 +62,45 @@
     background: #ffffff;
     padding: 8px 16px;
     border-radius: 15px;
-    color: #e91e63;
+    color: green;
     font-size: 14px;
     font-weight: bold;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1;
+    font-family: Bahnschrift SemiBold;
+
   }
 
   .card-content {
     padding: 16px;
     text-align: left;
+    font-family: Bahnschrift SemiBold;
+
   }
 
   .rating {
     color: #ffd700;
     font-size: 14px;
+    font-family: Bahnschrift SemiBold;
+
   }
 
   h4 {
     margin: 8px 0;
     font-size: 18px;
+    font-family: Bahnschrift SemiBold;
+
   }
 
   p {
     font-size: 14px;
     color: #666;
+    font-family: Bahnschrift SemiBold;
+
   }
 
   .icon-red {
-    color: red;
+    color: green;
     margin-right: 8px;
     font-size: 24px;
     vertical-align: middle;
@@ -105,9 +120,11 @@
   }
 
   .popular-btn {
+    background-color: skyblue;
+    color: green;
     display: block;
     width: 100%;
-    color: black;
+    //color: black;
     border: 1px solid black;
     border-radius: 20px;
     padding: 12px 0;

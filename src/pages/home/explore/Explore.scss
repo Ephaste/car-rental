@@ -20,14 +20,15 @@
 
 .explore-btn {
   margin-top: 30px;
-  background-color: #f6c2c2;
-  color: #ff0000;
+  background-color: skyblue;
+  color: green;
   border: none;
   padding: 7px 17px;
   border-radius: 20px;
   font-size: 10px;
   margin-bottom: 10px;
   cursor: pointer;
+  //font-family: Bahnschrift SemiBold;
 }
 
 .carde.two {
@@ -42,7 +43,7 @@
   width: 400px;
   text-align: left;
   text-transform: capitalize;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Bahnschrift SemiBold;
   border: none;
   margin: 10px;
 }
@@ -64,6 +65,7 @@ h3 {
   font-size: 18px;
   margin-top: 20px;
   font-weight: bold;
+  font-family: Bahnschrift SemiBold;
 }
 
 p {
@@ -72,6 +74,7 @@ p {
   text-align: left;
   font-size: 14px;
   margin-left: 10px;
+  font-family: Bahnschrift SemiBold;
 }
 
 .icon {
@@ -125,17 +128,20 @@ p {
   .carde.one h2 {
     font-size: 24px;
     text-align: center;
+    font-family: Bahnschrift SemiBold;
   }
 
   p {
     font-size: 13px;
     text-align: center;
     margin-left: 0;
+    font-family: Bahnschrift SemiBold;
   }
 
   h3 {
     font-size: 16px;
     text-align: center;
+    font-family: Bahnschrift SemiBold;
   }
 
   .icon-div {
@@ -146,10 +152,12 @@ p {
 
   .icon {
     font-size: 28px;
+    font-family: Bahnschrift SemiBold;
   }
 
   .explore-btn {
     font-size: 9px;
     padding: 6px 14px;
+    font-family: Bahnschrift SemiBold;
   }
 }

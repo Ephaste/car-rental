@@ -13,7 +13,6 @@ const Home = () => {
     <div className="home-container">
       <Slide />
       <SearchForm />
-      <Brands />
       <PopularCars />
       <CarTypes />
       <Explore />

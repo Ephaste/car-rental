@@ -1,0 +1,33 @@
+comments:
+FGS CAR RENT
+
+1> Booking button in the navbar
+ . trip details
+ . screenshot
+2. IN the news we have the ones on the home.
+
+styling navbar correctly
+
+
+Friday TODO:
+ .Changing the names with the real company name__Done
+ .Adding 4ne number on the header __Done
+ .styling navbar good and adding book icon __Done
+ .designing contact us  __Done.
+ .Designing booking   _Done.
+ .Designing news page. _Done
+ .Polishing the about us. _Done.
+ .Making scroll to top. __Done.
+
+.Hosting on the vercel  __Done
+
+
+TODO_Monday.
+
+- Removing the brands. _Done
+- Making fonts the same everywhere._Done
+- Using green colors.  __Done.
+- MOdify the slider  __Done
+-Changing the colors of the other pages _Done.
+- update the vercel link_Done
+- Customising the car types by using those appeared in Rwanda __Done.

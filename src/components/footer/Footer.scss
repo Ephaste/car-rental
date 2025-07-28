@@ -1,5 +1,5 @@
 .footer {
-  background-color: #1a1a1a;
+  background-color: green;
   color: #fff;
   padding: 40px 20px;
   font-family: Arial, sans-serif;
@@ -27,7 +27,7 @@
           margin-bottom: 8px;
           cursor: pointer;
           &:hover {
-            color: #ff0000;
+            color: skyblue
           }
         }
       }
@@ -35,7 +35,7 @@
       .logo {
         font-size: 24px;
         font-weight: bold;
-        color: #ff0000;
+        color: green;
         margin-bottom: 10px;
       }
 
@@ -57,13 +57,13 @@
 
         button {
           padding: 10px;
-          background-color: #ff0000;
+          background-color: skyblue;
           color: #fff;
           border: none;
           border-radius: 5px;
           cursor: pointer;
           &:hover {
-            background-color: #cc0000;
+            background-color: blue;
           }
         }
       }
@@ -93,7 +93,7 @@
         margin-left: 10px;
         text-decoration: none;
         &:hover {
-          color: #ff0000;
+          color: green;
         }
       }
     }

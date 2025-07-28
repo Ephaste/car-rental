@@ -6,7 +6,7 @@ const Header = () => {
     <header className="header">
       {/* Left: Opening Hours */}
       <div className="opening-hours">
-        <i className="far fa-clock"></i> Opening Hours: Mon - Fri, 8am - 5pm
+        <i className="far fa-clock"></i>  Working, 24hrs /7 days
       </div>
 
       {/* Center: Phone */}

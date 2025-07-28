@@ -10,7 +10,7 @@ import ToyotaLandCruiser2 from '../../../assets/imgs/landCruser.jpg';
 const PopularCars = () => {
   return (
     <div className="containerP">
-      <button className="brand-btn">POPULAR CARS</button>
+      <button className="brand-btnp">POPULAR CARS</button>
       <h2>Most Popular Cars</h2>
       <div className="cards-container">
         <div className="card">

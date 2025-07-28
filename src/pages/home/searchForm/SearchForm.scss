@@ -8,6 +8,7 @@
   background-color: #fff;
   border-radius: 12px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  font-family: Bahnschrift SemiBold;
 
   .form-group {
     display: flex;
@@ -23,7 +24,7 @@
 
     .icon {
       font-size: 24px;
-      color: red;
+      color: green;
     }
 
     .input-wrapper {
@@ -51,7 +52,7 @@
   }
 
   .search-btn {
-    background-color: #ff2e2e;
+    background-color: green;
     color: white;
     padding: 12px 28px;
     font-size: 16px;
@@ -63,7 +64,7 @@
     white-space: nowrap;
 
     &:hover {
-      background-color: #e62020;
+      background-color: green;
     }
   }
 
