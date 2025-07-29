@@ -31,3 +31,8 @@ TODO_Monday.
 -Changing the colors of the other pages _Done.
 - update the vercel link_Done
 - Customising the car types by using those appeared in Rwanda __Done.
+
+
+TODO_ Tuesday.
+
+
