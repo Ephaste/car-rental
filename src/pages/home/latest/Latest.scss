@@ -31,7 +31,7 @@
     overflow: hidden;
 
     .nav-btn {
-      background-color: rgba(0, 123, 255, 0.8);
+      background-color: skyblue;
       color: white;
       border: none;
       font-size: 20px;
@@ -43,7 +43,7 @@
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 
       &:hover {
-        background-color: rgba(0, 86, 179, 0.9);
+        background-color: green;
       }
 
       &.left {
@@ -66,7 +66,7 @@
     padding: 20px 0;
     white-space: nowrap;
 
-    scrollbar-width: none; // Firefox
+    scrollbar-width: none; // 
     -ms-overflow-style: none; // IE
     &::-webkit-scrollbar {
       display: none; // Chrome/Safari
@@ -128,7 +128,7 @@
     }
   }
 
-  // 🔽 Responsive section for small screens
+  //  Responsive section for small screens
   @media (max-width: 768px) {
     .news-container {
       gap: 15px;
