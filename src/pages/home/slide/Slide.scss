@@ -28,7 +28,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); // 👈 Reduces brightness
+    background: rgba(0, 0, 0, 0.5);
     z-index: 1;
   }
 }
@@ -51,17 +51,20 @@
     margin-bottom: 1rem;
     color: #fff;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    font-family: Arial Black;
   }
 
   p {
     font-size: 1.2rem;
     color: #eee;
     margin-bottom: 1.5rem;
+    text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+     font-family: Sitka Display;
   }
 
   a {
-    background-color: green;
+    background-color: #056333;
     color: white;
     padding: 0.8rem 1.5rem;
     border-radius: 30px;
@@ -71,8 +74,8 @@
 
     &:hover {
       background-color: #fff;
-      color: green;
-      border: 1px solid green;
+      color: #056333;
+      border: 1px solid #056333;
     }
   }
 }
@@ -122,10 +125,10 @@
 }
 
 .arrow {
-  border: 2px solid green;
+  border: 2px solid #056333;
   border-radius: 50%;
   background: transparent;
-  color: green;
+  color: #056333;
   width: 2.5rem;
   height: 2.5rem;
   cursor: pointer;
@@ -138,7 +141,7 @@
   justify-content: center;
 
   &:hover {
-    background: green;
+    background: #056333;
     color: #fff;
   }
 }

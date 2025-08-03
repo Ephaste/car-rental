@@ -20,8 +20,8 @@ const carData = [
 const CarTypes = () => {
   return (
     <div className="containerT">
-      <button className="brand-btn">CAR TYPES</button>
-      <h2>Explore Car Types</h2>
+      <button className="brand-btnp">CAR TYPES</button>
+      <h2 className='title'>Explore Car Types</h2>
       <div className="car-cards">
         {carData.map((car, index) => (
           <div className="car-card" key={index}>

@@ -10,8 +10,8 @@ const Explore = () => {
       <div className="line"></div>
       <div className='containerE'>
         <div className='carde one'>
-          <button className="explore-btn">WE ARE THE BEST</button>
-          <h2>Explore The world with your own way of driving.</h2>
+          <button className="brand-btnp">WE ARE THE BEST</button>
+          <h2 className='title'>Explore The world with your own way of driving.</h2>
         </div>
 
         <div className='carde two'>

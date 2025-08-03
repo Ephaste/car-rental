@@ -5,14 +5,19 @@
   background-color: #d8d3d3;
   text-align: center;
   box-sizing: border-box;
-  font-family: Bahnschrift SemiBold;
+ 
 
   
 }
+.title{
+ font-family: Arial black;
+ color: #056333;
+ font-size: 32px;
+}
 
 .brand-btnp {
- background-color: skyblue;
-  color: green;
+ //background-color: skyblue;
+  color: #056333;
   border: none;
   padding: 10px 20px;
   border-radius: 20px;
@@ -62,7 +67,7 @@
     background: #ffffff;
     padding: 8px 16px;
     border-radius: 15px;
-    color: green;
+    color: #056333;
     font-size: 14px;
     font-weight: bold;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -74,7 +79,7 @@
   .card-content {
     padding: 16px;
     text-align: left;
-    font-family: Bahnschrift SemiBold;
+  font-family: Arial Black;
 
   }
 
@@ -88,19 +93,19 @@
   h4 {
     margin: 8px 0;
     font-size: 18px;
-    font-family: Bahnschrift SemiBold;
+  font-family: Bahnschrift SemiBold;
 
   }
 
   p {
     font-size: 14px;
     color: #666;
-    font-family: Bahnschrift SemiBold;
+   font-family: Bahnschrift;
 
   }
 
   .icon-red {
-    color: green;
+    color: #056333;
     margin-right: 8px;
     font-size: 24px;
     vertical-align: middle;
@@ -120,8 +125,8 @@
   }
 
   .popular-btn {
-    background-color: skyblue;
-    color: green;
+    //background-color: skyblue;
+    color: #056333;
     display: block;
     width: 100%;
     //color: black;

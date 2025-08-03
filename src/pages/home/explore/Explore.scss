@@ -18,18 +18,18 @@
   gap: 20px;
 }
 
-.explore-btn {
-  margin-top: 30px;
-  background-color: skyblue;
-  color: green;
-  border: none;
-  padding: 7px 17px;
-  border-radius: 20px;
-  font-size: 10px;
-  margin-bottom: 10px;
-  cursor: pointer;
-  //font-family: Bahnschrift SemiBold;
-}
+// .explore-btn {
+//   margin-top: 30px;
+//   //background-color: skyblue;
+//   color: #056333;
+//   border: none;
+//   padding: 7px 17px;
+//   border-radius: 20px;
+//   font-size: 10px;
+//   margin-bottom: 10px;
+//   cursor: pointer;
+//   //font-family: Bahnschrift SemiBold;
+// }
 
 .carde.two {
   width: 330px;
@@ -37,7 +37,9 @@
   background-color: white;
   border-radius: 20px;
   margin: 10px;
+  box-shadow: 0 4px 20px rgba(5, 99, 51, 0.3); 
 }
+
 
 .carde.one {
   width: 400px;
@@ -48,9 +50,9 @@
   margin: 10px;
 }
 
-.carde.one h2 {
-  font-size: 38px;
-}
+// .carde.one h2 {
+//   font-size: 38px;
+// }
 
 .icon-div {
   border: solid 1px black;

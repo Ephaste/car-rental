@@ -51,8 +51,8 @@ const Latest = () => {
 
   return (
     <div className="containerP">
-      <button className="brand-btn">LATEST NEWS</button>
-      <h2>Latest Press Update</h2>
+      <button className="brand-btnp">LATEST NEWS</button>
+      <h2 className='title'>Latest Press Update</h2>
 
       <div className="slider-controls">
         <button className="nav-btn left" onClick={scrollLeft}>

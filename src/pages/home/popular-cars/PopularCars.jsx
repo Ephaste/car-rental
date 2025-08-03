@@ -11,7 +11,7 @@ const PopularCars = () => {
   return (
     <div className="containerP">
       <button className="brand-btnp">POPULAR CARS</button>
-      <h2>Most Popular Cars</h2>
+      <h2 className='title'>Most Popular Cars</h2>
       <div className="cards-container">
         <div className="card">
           <img src={ToyotaLandCruiser} alt="Toyota Land Cruiser" />

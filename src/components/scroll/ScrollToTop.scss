@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background-color: skyblue;
+  background-color: #2EE67A;
   color: #fff;
   border: none;
   border-radius: 50%;
@@ -17,7 +17,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 
   &:hover {
-    background-color: green;
+    background-color: #056333;
   }
 
   &.show {

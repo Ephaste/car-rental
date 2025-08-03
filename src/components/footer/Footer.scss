@@ -1,8 +1,8 @@
 .footer {
-  background-color:  rgb(2, 53, 2);
+  background-color:  #056333;
   color: #fff;
   padding: 40px 20px;
-  font-family: Arial, sans-serif;
+ font-family: Bahnschrift SemiBold;
 
   .footer-content {
     display: flex;
@@ -35,8 +35,9 @@
       .logo {
         font-size: 24px;
         font-weight: bold;
-        color: green;
+        color: white;
         margin-bottom: 10px;
+        font-family: arial black;
       }
 
       p {
@@ -57,13 +58,14 @@
 
         button {
           padding: 10px;
-          background-color: skyblue;
+          background-color: #2EE67A;
           color: #fff;
           border: none;
           border-radius: 5px;
           cursor: pointer;
           &:hover {
-            background-color: blue;
+            background-color: white;
+            color: #868585;
           }
         }
       }
@@ -79,6 +81,7 @@
     border-top: 1px solid #333;
     padding-top: 10px;
     font-size: 12px;
+   
 
     .social-links {
       display: flex;
@@ -93,7 +96,7 @@
         margin-left: 10px;
         text-decoration: none;
         &:hover {
-          color: green;
+          color: #056333;
         }
       }
     }
